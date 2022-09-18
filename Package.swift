@@ -2,6 +2,7 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
+import SwiftUI
 
 let package = Package(
     name: "SwiftPackageManager",
@@ -20,7 +21,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SwiftPackageManager",
-            dependencies: []),
+            dependencies: [],
+        path: "Sources"),
         .testTarget(
             name: "SwiftPackageManagerTests",
             dependencies: ["SwiftPackageManager"]),
