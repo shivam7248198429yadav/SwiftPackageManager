@@ -8,8 +8,10 @@
 import Foundation
 import SwiftUI
 
+
+@available(iOS 13.0, *)
 public struct SwiftUIView: View {
-    var body: some View {
+   public var body: some View {
         Text("Hello Shivam, How Are You")
     }
     
