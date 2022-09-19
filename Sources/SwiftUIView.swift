@@ -19,7 +19,8 @@ public init() {}
 }
 
 public class xyz {
+    public init() {}
     public func abc() {
-        
+     print("my name is shivam yadav")
     }
 }
